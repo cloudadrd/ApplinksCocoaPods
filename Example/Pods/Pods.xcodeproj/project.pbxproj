@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		175E2D61B6D2950376A7C9C0D4AEFE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3EF4E6682E59E15F4F5AE9596966259F /* ApplinsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1D7A85CFBDC4766D3B2032059AD6C5 /* ApplinsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		499F3C498405C7FE46B79AFFF806692D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 92933D239F409E7923E05DE4CD17B0F7 /* ReplaceMe.m */; };
 		4A6C866DDA5735715139C63B6FB00673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		81ACA4B396A7D64945F2E6C4ED832386 /* Pods-ApplinsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FACD21A325F054DEF2274CD9521C50 /* Pods-ApplinsSDK_Tests-dummy.m */; };
+		C79452D621D375E8008CA98F /* ApplinsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79452D521D375E8008CA98F /* ApplinsSDK.framework */; };
 		D6270980C044C138497DC945A7EE8150 /* Pods-ApplinsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A3B127E32FA428E824FA7F4B852A1D /* Pods-ApplinsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9509D1EA3A72566251D045551C169E1 /* ApplinsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B59117A81696327E79CC4F07180BA5A /* ApplinsSDK-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,10 +39,10 @@
 		711B5F3DA3EAB384308D97F125F401BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79D464B4989C3D723A5B4B3A7316064A /* Pods-ApplinsSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApplinsSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B0D121ED430F53948DF495FE56F3256 /* Pods-ApplinsSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ApplinsSDK_Tests-resources.sh"; sourceTree = "<group>"; };
-		92933D239F409E7923E05DE4CD17B0F7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ApplinsSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00EA8F73A3F6A6958546A909F842D8C /* Pods-ApplinsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApplinsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1A0EA0E5229539A6420EA41B41C3DBE /* Pods-ApplinsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApplinsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C79452D521D375E8008CA98F /* ApplinsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApplinsSDK.framework; sourceTree = "<group>"; };
 		C9D0F8DE19CD4F47E524F2D0DE13A63D /* ApplinsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApplinsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF19B9727E772CAC5CB0E28D4B3DDE31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF561AC35C5520E2BCD0D02350A55449 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -59,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				175E2D61B6D2950376A7C9C0D4AEFE72 /* Foundation.framework in Frameworks */,
+				C79452D621D375E8008CA98F /* ApplinsSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +154,7 @@
 		C7955EA721D35983005FD1DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C79452D521D375E8008CA98F /* ApplinsSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -178,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				C7955EA721D35983005FD1DA /* Frameworks */,
-				92933D239F409E7923E05DE4CD17B0F7 /* ReplaceMe.m */,
 				89242198831988A104F92F96D87C0522 /* Pod */,
 				2974F73AE110E71E885977B0AB31A198 /* Support Files */,
 			);
@@ -284,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9509D1EA3A72566251D045551C169E1 /* ApplinsSDK-dummy.m in Sources */,
-				499F3C498405C7FE46B79AFFF806692D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
