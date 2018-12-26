@@ -29,7 +29,7 @@ ApplinsSDK CocoaPods
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'ApplinsSDK/Frameworks/ApplinsSDK.framework'
+  s.ios.vendored_frameworks = 'ApplinsSDK/Frameworks/ApplinsSDK.framework'
   s.ios.library = 'z'
   #s.source_files = 'ApplinsSDK/Classes/**/*'
   
