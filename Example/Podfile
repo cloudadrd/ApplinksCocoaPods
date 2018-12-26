@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ApplinsSDK_Tests' do
+  pod 'ApplinsSDK', :path => '../'
+  
+  
+end

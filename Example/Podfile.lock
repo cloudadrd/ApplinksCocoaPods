@@ -1,0 +1,16 @@
+PODS:
+  - ApplinsSDK (0.1.0)
+
+DEPENDENCIES:
+  - ApplinsSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ApplinsSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ApplinsSDK: 988819ad3cca55827063aded779ff1672180edf2
+
+PODFILE CHECKSUM: 35a342acb9b1d841b3c87be49a70fbd5cdca7580
+
+COCOAPODS: 1.4.0
