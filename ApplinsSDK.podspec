@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-ApplinsSDK CocoaPods
+ApplinsSDK CocoaPods!!
                        DESC
 
   s.homepage         = 'https://github.com/zero-sdk/iOS_SDK'
