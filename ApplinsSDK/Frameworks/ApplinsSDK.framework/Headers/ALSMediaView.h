@@ -13,6 +13,6 @@
 @interface ALSMediaView : UIView
 @property (nonatomic, strong) ALSVideoViewController *videoController;
 @property (nonatomic, strong) ALSNativeVideoModel *NativeVideoAd;
-@property (nonatomic, assign) BOOL enableAutoPlay; //auto controll video play or pause, default : NO
-@property (nonatomic, assign) BOOL enableWWANPlay; //allow video play in mobile network (3g/4g etc.) , default : NO
+@property (nonatomic, assign) BOOL EnableAutoPlay; //auto controll video play or pause, default : NO
+@property (nonatomic, assign) BOOL EnableWWANPlay; //allow video play in mobile network (3g/4g etc.) , default : NO
 @end
