@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 ApplinsSDK CocoaPods!!
                        DESC
 
-  s.homepage         = 'https://github.com/zero-sdk/iOS_SDK'
+  s.homepage         = 'https://github.com/ad-thor/iOS_SDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tianwenshi' => '100345612@qq.com' }
