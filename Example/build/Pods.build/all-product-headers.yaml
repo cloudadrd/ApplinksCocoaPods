@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers",
+      'name': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphonesimulator/ApplinsSDK/ApplinsSDK.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ApplinsSDK-Swift.h",
-          'external-contents': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers/ApplinsSDK-Swift.h"
+          'external-contents': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphonesimulator/ApplinsSDK/ApplinsSDK.framework/Headers/ApplinsSDK-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Modules",
+      'name': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Debug-iphonesimulator/ApplinsSDK/ApplinsSDK.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Pods.build/Debug-iphoneos/ApplinsSDK.build/module.modulemap"
+          'external-contents': "/Users/Xuping/Desktop/CTSDK/ApplinksCocoaPods/Example/build/Pods.build/Debug-iphonesimulator/ApplinsSDK.build/module.modulemap"
         }
       ]
     }
