@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApplinsSDK'
-  s.version          = '4.0.7'
+  s.version          = '4.0.8'
   s.summary          = 'ApplinsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ ApplinsSDK CocoaPods!!
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tianwenshi' => '100345612@qq.com' }
-  s.source           = { :git => 'https://github.com/cloudadrd/ApplinksCocoaPods', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cloudadrd/ApplinksCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
