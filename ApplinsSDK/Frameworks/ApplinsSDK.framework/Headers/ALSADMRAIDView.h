@@ -36,7 +36,6 @@ typedef enum
 @property (nonatomic, readonly) ALSAdViewPlacementType placementType;
 @property (nonatomic, readonly) UIView* expandView;
 @property (nonatomic, assign) BOOL modalDismissAfterPresent;
-@property (nonatomic, assign) BOOL useInternalBrowser;
 @property (nonatomic, assign) BOOL isReady;
 @property (nonatomic, readonly) NSString* slot;
 

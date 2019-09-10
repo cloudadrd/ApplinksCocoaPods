@@ -53,7 +53,18 @@ typedef enum : NSUInteger {
 - (void)uploadConsentValue:(NSString *)consentValue
                consentType:(NSString *)consentType
                   complete:(void(^)(BOOL state))complete;
+/*
+Set whether this user is a child
+@param child  if the user is a child, set YES, else set NO
+*/
+- (void)setIsChildDirected:(BOOL)child;
 
+
+/*
+Get whether this user is a child
+*/
+
+- (BOOL)isChildDirected;
 #pragma mark - Native Ad Interface（Return Ad Elements）
 /**
  We recommend use ALSNative Interface！！！
