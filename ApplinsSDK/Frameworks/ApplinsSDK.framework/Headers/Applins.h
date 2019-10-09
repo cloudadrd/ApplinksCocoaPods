@@ -172,34 +172,6 @@ Get whether this user is a child
 
 - (void)getBannerAD:(NSString*)slotid delegate:(id)delegate adSize:(ALSBannerSize)size isTest:(BOOL)isTest;
 
-
-#pragma mark - AppWall Ad Interface
-/**
- Get AppWall ViewController
- First,you should Call preloadAppWall method,then call showAppWallViewController method show Appwall.
- 
- @param slot_id         Native AD ID
- @param customColor     If you want set custom UI,you should create ALSCustomColor object
- @param delegate        Set Delegate of Ads event (<ALSAppWallDelegate>)
- @param isTest          Use test advertisement or not
- @param success         The request is successful Block
- @param failure         The request failed Block, retuen error
- */
-- (void)preloadAppWall:(NSString *)slot_id
-           customColor:(ALSCustomColor *)customColor
-              delegate:(id)delegate
-                isTest:(BOOL)isTest
-               success:(void(^)())success
-                failure:(void(^)(NSError *error))failure;
-
-/**
- Get App Wall ViewController
-
- @return AppWallViewController
- */
-- (UIViewController *)showAppWallViewController;
-
-
 #pragma mark - RewardVideo Ad Interface
 //Get Reward Video Ads
 
