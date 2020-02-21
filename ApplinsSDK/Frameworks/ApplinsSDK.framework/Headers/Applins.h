@@ -296,4 +296,23 @@ Get whether this user is a child
  Call this method before show ad
  */
 - (BOOL)isInterstitialReady;
+
+#pragma mark - splash ad
+/**
+Preload Splash Ad
+Call this interface preload Splash AD.
+ 
+@param slotid          Splash slot ID
+@param delegate        Set Delegate of Ads event
+@param isTest          Use test advertisement or not
+ */
+- (void)preloadaAndShowSplashAd:(NSString *)slotid delegate:(id)delegate window:(UIWindow*)window launchImage:(UIImage*)luanchImage customAdView:(UIView*)view waitAdTime:(float)waitTime isTest:(BOOL)isTest;
+
+/**
+ Show Splash ad
+ Call this method after preload Splash ad success
+ */
+//- (void)showSplashlAd;
+
+
 @end
