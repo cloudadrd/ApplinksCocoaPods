@@ -43,7 +43,7 @@ typedef enum
  from rich media ads.
  
  Note: The registered NSURLProtocol class used by the SDK only intercepts requests
- for "mraid.js" from a UIWebView.
+ for "mraid.js" from a WebView.
  */
 - (void)unregisterProtocolClass;
 - (void)mraidInitializeBridge:(id)bridge forWebView:(id)wv;
