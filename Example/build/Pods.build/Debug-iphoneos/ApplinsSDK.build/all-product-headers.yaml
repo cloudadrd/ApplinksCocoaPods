@@ -1,1 +1,33 @@
-{"case-sensitive":"false","roots":[{"contents":[{"external-contents":"/Users/mirinda/Desktop/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers/ApplinsSDK-Swift.h","name":"ApplinsSDK-Swift.h","type":"file"},{"external-contents":"/Users/mirinda/Desktop/ApplinksCocoaPods/Example/Pods/Target Support Files/ApplinsSDK/ApplinsSDK-umbrella.h","name":"ApplinsSDK-umbrella.h","type":"file"}],"name":"/Users/mirinda/Desktop/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers","type":"directory"},{"contents":[{"external-contents":"/Users/mirinda/Desktop/ApplinksCocoaPods/Example/build/Pods.build/Debug-iphoneos/ApplinsSDK.build/module.modulemap","name":"module.modulemap","type":"file"}],"name":"/Users/mirinda/Desktop/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Modules","type":"directory"}],"version":0}
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mirinda/Documents/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ApplinsSDK-Swift.h",
+          'external-contents': "/Users/mirinda/Documents/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Headers/ApplinsSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ApplinsSDK-umbrella.h",
+          'external-contents': "/Users/mirinda/Documents/ApplinksCocoaPods/Example/Pods/Target Support Files/ApplinsSDK/ApplinsSDK-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mirinda/Documents/ApplinksCocoaPods/Example/build/Debug-iphoneos/ApplinsSDK/ApplinsSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mirinda/Documents/ApplinksCocoaPods/Example/build/Pods.build/Debug-iphoneos/ApplinsSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
