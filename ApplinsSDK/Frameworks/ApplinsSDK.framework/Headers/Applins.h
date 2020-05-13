@@ -300,7 +300,7 @@ Get whether this user is a child
 #pragma mark - splash ad
 /**
 Preload Splash Ad
-Call this interface preload Splash AD.
+Call this interface preload Splash AD.  After calling this method, you cannot manually call the method -> "splashlAdShow:" .
  
 @param slotid          Splash slot ID
 @param delegate      Set Delegate of Ads event
@@ -318,5 +318,22 @@ Call this interface preload Splash AD.
  */
 //- (void)showSplashlAd;
 
+/**
+Preload Splash Ad
+Call this interface preload Splash AD.  After calling this method, After  the ad sucessed , you need manually call the method -> "splashlAdShow:".
+ 
+@param slotid          Splash slot ID
+@param delegate      Set Delegate of Ads event
+@param customAdView        Set bottom custom view if needed
+@param isTest          Use test advertisement or not
+ */
+- (void)preloadSplashAd:(NSString *)slotid delegate:(id)delegate customAdView:(UIView*)view isTest:(BOOL)isTest;
+
+/**
+Show Splash ad
+Call this method after preloadSplashAd:delegate:Splash:customAdView:isTest  ad success
+@param vc   Launch ad  vc
+*/
+- (void)splashlAdShow:(UIViewController *)vc;
 
 @end

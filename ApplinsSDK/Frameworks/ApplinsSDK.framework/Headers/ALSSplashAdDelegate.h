@@ -9,10 +9,12 @@
 #ifndef ALSSplashAdDelegate_h
 #define ALSSplashAdDelegate_h
 @protocol ALSSplashAdDelegate <NSObject>
+- (void)ALSSPlashAdSuccess;
 - (void)ALSSplashAdIsShow;
 - (void)ALSSplashAdFailed:(NSError*)error;
 - (void)ALSSplashAdClicked;
 - (void)ALSSplashAdJumpedFailed;
+- (void)ALSSplashAdClosed;
 @end
 
 #endif /* ALSSplashAdDelegate_h */
