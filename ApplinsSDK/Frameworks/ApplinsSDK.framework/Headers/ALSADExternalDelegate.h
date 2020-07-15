@@ -14,6 +14,8 @@
 /**
  * User click the advertisement.
  */
+-(void)ALSNativeAdImpression:(UIView *)nativeAd;
+
 -(void)ALSNativeADClicked:(UIView *)nativeAd;
 
 -(void)ALSNativeWillJumpToAppStore:(UIView *)nativeAd;
