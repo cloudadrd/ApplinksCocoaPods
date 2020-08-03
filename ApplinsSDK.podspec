@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApplinsSDK'
-  s.version          = '4.3.6'
+  s.version          = '4.3.7'
   s.summary          = 'ApplinsSDK.'
 
 # This description is used to generate tags and improve search results.
