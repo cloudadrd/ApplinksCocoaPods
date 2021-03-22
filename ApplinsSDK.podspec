@@ -28,7 +28,7 @@ ApplinsSDK CocoaPods!!
   s.source           = { :git => 'https://github.com/cloudadrd/ApplinksCocoaPods.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'ApplinsSDK/Frameworks/ApplinsSDK.framework'
   s.ios.library = 'z'
   #s.source_files = 'ApplinsSDK/Classes/**/*'
