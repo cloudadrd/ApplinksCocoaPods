@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ApplinsSDK in Pods
+Pods-ApplinsSDK_Tests in Pods, depends on:
+ApplinsSDK in Pods (explicit)
